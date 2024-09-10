@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/feedback.css">
+   <link rel="stylesheet" href="css/icomoon.css">
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap');
+   </style>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <title>WoodHouse</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="header__container">
+         <a href="index.html" class="header__logo">
+            <img src="img/logo-black.png" alt="logo">
+         </a>
+         <!-- Burger button -->
+         <div class="header__menu menu">
+            <div class="header__burger">
+               <span></span>
+            </div>
+         </div>
+         <!-- Burger menu -->
+         <nav class="menu__body">
+            <ul class="menu__list">
+               <li><a href="index.html" class="menu__link" data-goto="">Главная</a></li>
+               <li><a href="projects.html" class="menu__link" data-goto="">Проекты</a></li>
+               <li><a href="services.html" class="menu__link" data-goto="">Услуги</a></li>
+               <li><a href="blog.html" class="menu__link" data-goto="">Блог</a></li>
+               <li><a href="about.html" class="menu__link" data-goto="">Компания</a></li>
+            </ul>
+         </nav>
+         <div class="header__social social">
+            <a href="" class="social__item _icon-instagram"></a>
+            <a href="" class="social__item _icon-vk"></a>
+            <a href="" class="social__item _icon-fb"></a>
+            <a href="" class="social__item _icon-tw"></a>
+         </div>
+      </div>
+   </header>
+   <section class="feedback">
+      <div class="feedback__container container">
+         <div class="feedback__body">
+            <div class="feedback__title title">Обратная связь</div>
+            <div class="feedback__subtitle">Задайте нам любой вопрос, напишите или сделайте заказ.
+               Наши менеджеры ответят вам в ближайшее время.</div>
+            <form action="" class="feedback__form form-feedback">
+               <input class="form-feedback__input" placeholder="Имя..." type="text">
+               <input class="form-feedback__input" placeholder="Телефон..." type="phone">
+               <textarea class="form-feedback__input form-feedback__textarea"
+                  placeholder="Ваше сообщение..."></textarea>
+               <button class="form-feedback__button button" type="submit">Отправить сообщение</button>
+            </form>
+         </div>
+      </div>
+   </section>
+   <section class="contacts">
+      <div class="contacts__container container">
+         <div class="contacts__body">
+            <div class="contacts__title">Наши контакты</div>
+            <div class="contacts__location">г. Москва, пр. Скулатова, 224, оф 3.</div>
+            <a href="tel:+74992467532" class="contacts__phone">+7 (499) 246-75-32</a>
+            <div class="contacts__map">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d38242.74633761898!2d63.61297330000001!3d53.19683779999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2skz!4v1669219832999!5m2!1sen!2skz"
+                  style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </div>
+      </div>
+   </section>
+   <footer class="footer">
+      <div class="footer__container container">
+         <div class="footer__body">
+            <div data-spoilers="993,max" class="footer__items">
+               <div class="footer__item item-footer footer__item-about">
+                  <button data-spoiler class="item-footer__title" data-da=".item-footer__info,993,1" type="button">
+                     Коротко о нас
+                  </button>
+                  <div class="item-footer__info item-footer__info">
+                     <div class="item-footer__image">
+                        <img src="/img/dark-logo.png" alt="">
+                     </div>
+                     <div class="item-footer__text">
+                        Мы досконально прорабатываем, а затем обсуждаем с нашими клиентами внешний вид каждого
+                        изделия. Мы крайне редко повторяемся, ведь мы знаем, что вы цените индивидуальность и не
+                        готовы довольствоваться готовыми решениями.
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__item item-footer footer__item-menu">
+                  <button type="button" data-spoiler class="item-footer__title">Меню</button>
+                  <div class="item-footer__info">
+                     <ul class="item-footer__list">
+                        <li><a href="index.html" class="item-footer__link">Главная</a></li>
+                        <li><a href="projects.html" class="item-footer__link">Проекты</a></li>
+                        <li><a href="services.html" class="item-footer__link">Услуги</a></li>
+                        <li><a href="projects.html" class="item-footer__link">Проекты</a></li>
+                        <li><a href="about.html" class="item-footer__link">Компания</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__item item-footer footer__item-services">
+                  <button type="button" data-spoiler class="item-footer__title">Услуги</button>
+                  <div class="item-footer__info">
+                     <ul class="item-footer__list">
+                        <li><a href="" class="item-footer__link">Дизайн интерьера</a></li>
+                        <li><a href="" class="item-footer__link">Проектирование</a></li>
+                        <li><a href="" class="item-footer__link">Поставка дерева</a></li>
+                        <li><a href="" class="item-footer__link">Ремонт</a></li>
+                        <li><a href="" class="item-footer__link">Концепт</a></li>
+                        <li><a href="" class="item-footer__link">Выезд мастера</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="footer__item item-footer footer__item-social">
+                  <button type="button" data-spoiler class="item-footer__title">Мы в соц. сетях</button>
+                  <div class="item-footer__info">
+                     <div class="item-footer__text">
+                        Подпишитесь на нас в социальных сетях, чтобы не пропустить выход новых невероятных
+                        проектов,
+                        разработанных для наших клиентов по всему миру.
+                     </div>
+                     <div class="item-footer__social">
+                        <div class="item-footer__social-item _icon-instagram"></div>
+                        <div class="item-footer__social-item _icon-vk"></div>
+                        <div class="item-footer__social-item _icon-fb"></div>
+                        <div class="item-footer__social-item _icon-tw"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+   <script type="module" src="/js/app.js"></script>
+</body>
+
+</html>
